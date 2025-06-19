@@ -1,0 +1,5 @@
+flask==2.3.2
+pymongo==4.3.3
+flask_pymongo==2.3.0
+requests==2.32.4
+ubuntu@ip-172-31-2
