@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:7.0
+    container_name: pf2mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - pf2net
+
+  pokefight:
+    image: drjayatx512/pf2app:latest
+    container_name: pokefight2
+    depends_on:
+      - mongo
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+    networks:
+      - pf2net
+
+networks:
+  pf2net:
+
+volumes:
+  mongo_data:
