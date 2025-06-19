@@ -1,10 +1,11 @@
 # PokeFightII_Dockerized
 Docker composed version of pokefight 2 to run in your Docker host and play on a web browser.
 
-🔴 Poke Fight II – Dockerized Flask + MongoDB App
+🔴 Poke Fight II
+
 Poke_Fight_II is a simple game where you can do two player Pok-e-mon battles, via a web app with gifs for the Pok-e-mon!
 
-It is a Flask app, running a MongoDB instance to host the required data as well as store current match data.
+It is a docker-compose file that combines a MongoDB instance to host the required data as well as store current match data, a script to seed the DB with data, and a Flask app to run the game.
 
 🚀 Features
 Flask API served on port 5000
