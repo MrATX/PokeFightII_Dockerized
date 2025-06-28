@@ -16,7 +16,7 @@ Single-command deployment with Docker Compose
 
 Designed for cloud deployment (e.g., AWS EC2)
 
-🧰 Requirements
+🧰 Requirements<br>
 Docker installed on your machine
 
 📦 Usage
