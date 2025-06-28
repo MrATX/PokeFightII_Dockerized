@@ -19,25 +19,25 @@ Designed for cloud deployment (e.g., AWS EC2)
 🧰 Requirements
 Docker installed on your machine
 
-Docker Compose installed (usually included with Docker Desktop)
-
 📦 Usage
 1. Clone the Repo
 git clone https://github.com/your-username/pokefight2-docker.git
 cd pokefight2-docker
 
-2. Start the App
+2. CD into the folder
+
+3. Start the App
 docker-compose up
 
 This will:
 - Pull the official MongoDB image
-- Pull your custom app image from Docker Hub (if set in the compose file)
+- Pull the custom pf2 app image from Docker Hub
 - Seed the MongoDB instance with required data
 - Launch the Flask app on port 5000
 
 🌐 Access the App
 Once running, navigate to:
-http://<your-docker-host-public-ip>:5000
+http://your-docker-host-public-ip:5000
 
 ⚠️ Make sure your firewall or cloud security group allows traffic on port 5000.
 
