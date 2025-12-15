@@ -21,12 +21,12 @@ Docker installed on your machine
 
 📦 Usage
 1. Clone the Repo
-git clone https://github.com/your-username/pokefight2-docker.git
+git clone https://github.com/MrATX/PokeFightII_Dockerized.git
 cd pokefight2-docker
 
-2. CD into the folder
+3. CD into the folder
 
-3. Start the App
+4. Start the App
 docker-compose up
 
 This will:
